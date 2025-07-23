@@ -14,3 +14,5 @@
 {"timestamp":"2025-07-23T01:44:21.304180","level":"info","event":"Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_workday_timetable.py","logger":"airflow.models.dagbag.DagBag"}
 {"timestamp":"2025-07-23T01:44:51.796000","level":"info","event":"Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_workday_timetable.py","logger":"airflow.models.dagbag.DagBag"}
 {"timestamp":"2025-07-23T01:45:21.975800","level":"info","event":"Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_workday_timetable.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-23T02:17:23.917671","level":"info","event":"Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_workday_timetable.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-23T02:17:54.112867","level":"info","event":"Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_workday_timetable.py","logger":"airflow.models.dagbag.DagBag"}
