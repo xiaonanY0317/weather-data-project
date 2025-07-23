@@ -1,0 +1,10 @@
+{"timestamp":"2025-07-22T02:14:35.255048","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-22T02:14:35.255686","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-22T02:14:35.340110Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-22T02:14:35.340531Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-22T02:14:35.340797Z","level":"info","event":"Current task name:transform_weather_data","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-22T02:14:35.341010Z","level":"info","event":"Dag name:weather_data_orchestrator","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-22T02:14:35.358833","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-07-22T02:14:35.368984Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-22T02:14:35.369288Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-22T02:14:35.369572Z","level":"info","event":"Task operator:<Task(PythonOperator): transform_weather_data>","chan":"stdout","logger":"task"}

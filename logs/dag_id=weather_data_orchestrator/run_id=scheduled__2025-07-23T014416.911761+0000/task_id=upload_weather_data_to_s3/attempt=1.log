@@ -1,0 +1,12 @@
+{"timestamp":"2025-07-23T01:44:45.018877","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-23T01:44:45.019222","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-23T01:44:45.104197Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-23T01:44:45.104713Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-23T01:44:45.104944Z","level":"info","event":"Current task name:upload_weather_data_to_s3","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-23T01:44:45.105135Z","level":"info","event":"Dag name:weather_data_orchestrator","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-23T01:44:45.123054","level":"info","event":"Found credentials in environment variables.","logger":"botocore.credentials"}
+{"timestamp":"2025-07-23T01:44:45.513299Z","level":"info","event":"Upload failed: Failed to upload /opt/airflow/data/weather_data.csv to xiaonan-airflow-test/weather_data.csv: An error occurred (InvalidAccessKeyId) when calling the PutObject operation: The AWS Access Key Id you provided does not exist in our records.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-23T01:44:45.513849","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-07-23T01:44:45.525391Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-23T01:44:45.525702Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-23T01:44:45.526026Z","level":"info","event":"Task operator:<Task(PythonOperator): upload_weather_data_to_s3>","chan":"stdout","logger":"task"}
