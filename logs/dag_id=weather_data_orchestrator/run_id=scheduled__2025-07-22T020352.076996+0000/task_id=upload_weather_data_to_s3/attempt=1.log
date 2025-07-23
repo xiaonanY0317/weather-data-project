@@ -1,0 +1,11 @@
+{"timestamp":"2025-07-22T02:03:54.347493","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-22T02:03:54.347926","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/orchestrator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-22T02:03:54.426530Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-22T02:03:54.426992Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-22T02:03:54.427372Z","level":"info","event":"Current task name:upload_weather_data_to_s3","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-22T02:03:54.427592Z","level":"info","event":"Dag name:weather_data_orchestrator","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-22T02:03:54.519402Z","level":"info","event":"Upload failed: Unable to locate credentials","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-22T02:03:54.519930","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-07-22T02:03:54.533039Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-22T02:03:54.533370Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-22T02:03:54.533706Z","level":"info","event":"Task operator:<Task(PythonOperator): upload_weather_data_to_s3>","chan":"stdout","logger":"task"}
